@@ -5,6 +5,8 @@ int main(void)
 	int x=100;
 	printf("decimal= %d;octal= %o;hex= %x\n",x,x,x);
 	printf("decimal= %d;octal= %#o;hex= %#x\n",x,x,x);
-
+	printf("decimal= %d;octal= %o;hex= %x\n",x,x,x);
+	printf("decimal= %d;octal= %#o;hex= %#x\n",x,x,x);
+	
 	return 0;
 }
